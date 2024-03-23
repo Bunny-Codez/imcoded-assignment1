@@ -1,0 +1,14 @@
+h1{
+    font-family: monospace;
+    font-size: xxx-large;
+    border: black;
+    color: yellow;
+    text-align: center;
+    background-color:black;
+}
+
+img{
+    float: left;
+    width: 130px;
+    background-color: black;
+}
