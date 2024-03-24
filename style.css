@@ -8,7 +8,6 @@ h1{
     margin: 0px;
     
 }
-
 img{
     float: left;
     width: 130px;
@@ -44,5 +43,27 @@ li::marker{
 h4{
     font-family: cursive;
     text-align: center;
+    color: yellow;
+    background-color: black;
 }
 
+.introp{
+    color: white;
+    background-color: blue;
+    padding: 10px;
+}
+
+li{
+    background-color: white;
+    text-align: center;
+    font-size: larger;
+}
+
+.aboutp{
+    color: white;
+    background-color: black;
+}
+
+.business{
+    background-color: rgb(237, 7, 214);
+}
