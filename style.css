@@ -51,10 +51,12 @@ h4{
     color: white;
     background-color: blue;
     padding: 10px;
+    font-size: larger;
+    height: 80px;
 }
 
 li{
-    background-color: white;
+    background-color: rgb(251, 230, 4);
     text-align: center;
     font-size: larger;
 }
@@ -66,4 +68,94 @@ li{
 
 .business{
     background-color: rgb(237, 7, 214);
+    font-size: large;
+    height: 70px;
+}
+
+#Register{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blueviolet;
+    color: white;
+    border: 2px double rgb(255, 2, 175);
+}
+
+#page{
+    background-color: black;
+}
+
+#reg{
+    background-color: blueviolet;
+}
+
+#name{
+    border-radius: 25px;
+    border: 5px solid yellow; 
+    padding: 10px;
+    width: 200px;
+    height: 10px;
+    text-align: center;
+}
+
+#email{
+    border-radius: 25px;
+    border: 5px solid yellow; 
+    padding: 10px;
+    width: 200px;
+    height: 10px;
+    text-align: center;
+}
+
+#contact{
+    border-radius: 25px;
+    border: 5px solid yellow; 
+    padding: 10px;
+    width: 200px;
+    height: 10px;
+    text-align: center;
+}
+
+#dob{
+    border-radius: 25px;
+    border: 5px solid yellow; 
+    padding: 10px;
+    width: 150px;
+    height: 10px;
+    text-align: center;
+}
+
+.label{
+    font-family: cursive;
+    font-size: large;
+}
+
+.input{
+    text-align: center;
+}
+
+#insta{
+    color: rgb(233, 17, 233);
+    border: 1px dotted pink;
+    padding: 5px;
+}
+
+#yt{
+    color: red;
+    border: 1px dotted crimson;
+    padding: 5px;
+}
+
+body{
+    background-color: black;
+}
+
+.social{
+    text-align: center;
+}
+
+h3{
+    font-family: cursive;
+    text-align: center;
+    color: yellow;
+    background-color: black;
+    border: 2px dashed yellow;
 }

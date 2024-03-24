@@ -8,7 +8,7 @@
 </head>
 <body>
     <main>
-        <section>
+        <section id="page">
             <img src="imgs/main_logo.png" alt="Comiccon">
             <h1>Comic con</h1>
             <hr>
@@ -28,40 +28,38 @@
             <p class="business">At Comic Con India you get the right pop-culture audience, the right space, you get the right pop-culture audience, space, and the right stage to showcase your brand. There are tons to do at India's greatest pop culture experience.</p>
             <hr>
         </section>
-        <section>   
-            <h2>&hearts; Register To Join This Event &hearts;</h2>
-            <form action="https://www.comicconindia.com/all-cities-main-page/mumbai-comic-con">
+        <section id="reg">   
+            <h2 id="Register">&hearts; Register To Join This Event &hearts;</h2>
+            <form class="input" action="https://www.comicconindia.com/all-cities-main-page/mumbai-comic-con">
                 <p>
-                    <input type="text" placeholder="Enter your full-name">
+                    <input type="text" placeholder="Enter your full-name" id="name">
                 </p>    
                 <p>
-                    <input type="email" placeholder="Enter your email">
+                    <input type="email" placeholder="Enter your email" id="email">
                 </p>
                 <p>
-                    <input type="number" placeholder="Enter your phone number">
+                    <input type="number" placeholder="Enter your phone no." id="contact">
                 </p>
                 <p>
-                    <label for="gender">Male:</label>
-                    <input type="checkbox">
+                    <label class="label" for="gender">Male:</label>
+                    <input type="checkbox" id="M">
                 </p>
                 <p>
-                    <label for="gender">Female:</label>
-                    <input type="checkbox">
+                    <label class="label" for="gender">Female:</label>
+                    <input type="checkbox" id="F">
                 </p>
                 <p>
-                    <label for="dob">Date of Birth:</label>
-                    <input type="date">
+                    <label class="label" for="dob">Date of Birth:</label>
+                    <input type="date" id="dob">
                 </p>
                 <button>Submit</button>
             </form>    
         </section>     
     </main>
     <footer>
-        <h4>Stay Tuned On Social By Following Us On</h4>
-        <ul>
-            <li><a href="https://www.instagram.com/comicconindia/">Instagram</a></li>
-            <li><a href="https://www.youtube.com/@Comicconindia10">Youtube</a></li>
-        </ul>
-    </footer>
+        <h3>Stay Tuned On Social By Following Us On</h3>
+        <p class="social"><a href="https://www.instagram.com/comicconindia/" id="insta">Instagram</a></p>
+        <p class="social"><a href="https://www.youtube.com/@Comicconindia10" id="yt">Youtube</a></p>
+        </footer>
 </body>
 </html>
